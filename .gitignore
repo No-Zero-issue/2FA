@@ -12,3 +12,9 @@ captures/
 .externalNativeBuild/
 .cxx/
 .kotlin/
+
+# 签名相关：绝不提交（原仓库这几条写在根 .gitignore 里，拆出来后必须自带）
+keystore.properties
+keystore/*.jks
+*.jks
+*.keystore
